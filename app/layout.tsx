@@ -18,6 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="light">
+      <head>
+      <link rel="shortcut icon" href="/logo.png" />
+      </head>
       <body className={inter.className}>
         <Providers>
           <Nav />

@@ -3,6 +3,7 @@ import { Providers } from "./providers";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Nav from "./component/Navbar";
+import Footer from "./pages/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,14 +18,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="light">
+    <html lang="en" className="light no-visible-scrollbar">
       <head>
-      <link rel="shortcut icon" href="/logo.png" />
+        <link rel="shortcut icon" href="/logo.png" />
       </head>
       <body className={inter.className}>
         <Providers>
-          <Nav />
-          {children}
+          <div>
+            <Nav />
+          </div>
+          <div>{children}</div>
+          <div>
+            <Footer />
+          </div>
         </Providers>
       </body>
     </html>

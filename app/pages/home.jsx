@@ -4,7 +4,7 @@ import TechStack from "../component_page/TechStack"
 
 const Home = () => {
   return (
-    <div className="flex flex-col justify-center  items-center w-full h-screen">
+    <div className="flex flex-col justify-center  items-center w-full h-auto">
       <CardMain />
       <TechStack />
     </div>

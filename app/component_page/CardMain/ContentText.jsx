@@ -4,7 +4,7 @@ import TypeWriter from "../../component/TypeWriter";
 
 const ContentText = () => {
   return (
-    <div className="flex  md:justify-start p-3 flex-col items-center">
+    <div className="flex sm:w-[60%] md:justify-start p-3 flex-col items-center">
       <TypeWriter />
       <p className="my-3 text-center text-sm md:text-start">Hi, I'm Dodi Suta Faturohman. A passionate Frond-End React Developer based in Sumedang, Jawabarat. Indonesia✨</p>
       <div className="flex justify-center md:justify-start w-full gap-4 py-2 items-center">

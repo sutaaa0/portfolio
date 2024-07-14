@@ -43,6 +43,25 @@ const page = () => {
       urldemo: "https://rpl1.vercel.app",
       urlcode: "https://github.com/dodisuta/rpl1",
     },
+    {
+      id: 3,
+      name: "Website Software House",
+      image: "/projects/project3.png",
+      description:
+        "Proyek ini adalah pembuatan website profil untuk sebuah software house yang berfungsi sebagai media informasi dan promosi layanan perusahaan kepada calon klien. Website ini dirancang untuk menampilkan informasi penting tentang perusahaan, layanan yang ditawarkan, portofolio proyek, serta kontak dan informasi lainnya yang relevan.",
+      tackstack: [
+        {
+          id: 1,
+          name: "Next JS",
+        },
+        {
+          id: 2,
+          name: "Tailwind",
+        },
+      ],
+      urldemo: "https://software-house-eta.vercel.app/",
+      urlcode: "https://github.com/sutaaa0/SoftwareHouse",
+    },
   ];
 
   return (
